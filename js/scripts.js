@@ -1,4 +1,4 @@
-
+// @flow
 
 $(document).ready(function(){
   $("form#formOne").submit(function(event){
@@ -9,12 +9,16 @@ $(document).ready(function(){
   var countArray = [];
   var count = 0;
 
+
     for (var i = 0; i < number; i++) {
       count ++;
-      var countArray = countArray.push(count);
+      countArray.push(count);
+      console.log(countArray)
     }
 
 
-formOne(userNumber);
+
+
+// formOne(userNumber);
   });
 });
