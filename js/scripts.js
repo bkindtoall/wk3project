@@ -15,13 +15,17 @@ $(document).ready(function(){
   }
     //got a listed count up to and including input number
       var beep = [];
+      var boop = [];
   for (var i = 0; i < countArray.length; i++) {
     var toString = (countArray[i]).toString();
     if (toString.includes(0) === true) {
       beep.push("Beep!")
       console.log(beep);
-    };
-  }
+    // } else if (toString.includes(1) === true);
+    //   boop.push("Boop!")
+    //   console.log(boop);
+  };
+};
 
 
 
