@@ -15,8 +15,7 @@ $(document).ready(function(){
   }
   //got a listed count up to and including input number
   var beep = [];
-  var boop = [];
-  var dave = [];
+
 
   for (var i = 0; i < countArray.length; i++) {
     var toString = (countArray[i]).toString();
@@ -26,16 +25,21 @@ $(document).ready(function(){
     }
       else if (toString.includes(1) === true) {
         beep[i] = "Boop!";
-        // console.log(boop);
+        // console.log(beep);
       }
       else if (i>0 && i%3==0) {
         beep[i] = "Sorry Dave"
-        console.log(beep);
+        // console.log(beep);
       }
     };
     // var mergedArrays = beep.concat(boop, dave);
     // console.log(mergedArrays);
-    var masterMerged = countArray.concat(beep);
+    var masterMerged = beep.concat(countArray);
     console.log(masterMerged)
   });
+  function output(masterMerged) {
+     return masterMerged
+  }
+  // $("#output").text(masterMerged);
+  //   return masterMerged;
 });
