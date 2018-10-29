@@ -1,16 +1,16 @@
 # Arrays and Loops
 
-#### Website guiding potential students to specific areas based on questionnaire
+#### Webpage returning Boop Beep and Sorry Dave quote with inputed number
 
 #### By Patricia Filipovic
 
 ## Description
+Enter any number and get the following return:
+ 1. Any number with a zero, will be replaced with Boop!
+ 2. Any number with a one, will be replaced with Beep!
+ 3. Any number divisible by three, will be replaced the the quote, "Sorry Dave, I can't do that right now."
 
- 1. Website that initially asks for user input specific to why they want to code. 
- 2. Based on answers to questions, guides them to specific stacks.
- 3. Provides information on all stacks discussed, giving student information so that can ultimately choose themselves.
-
-https://bkindtoall.gitHub.io/wk2prjt
+https://bkindtoall.gitHub.io/wk3project
 
 
 ## Support and contact details
