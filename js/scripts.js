@@ -29,17 +29,13 @@ $(document).ready(function(){
         // console.log(boop);
       }
       else if (i>0 && i%3==0) {
-        beep[i] = "Sorry Dave";
+        beep[i] = "Sorry Dave"
         console.log(beep);
       }
-      else {
-        countArray[i].show();
-      }
-        
     };
     // var mergedArrays = beep.concat(boop, dave);
     // console.log(mergedArrays);
-    // var masterMerged = countArray.concat(beep);
-    // console.log(masterMerged)
+    var masterMerged = countArray.concat(beep);
+    console.log(masterMerged)
   });
 });
