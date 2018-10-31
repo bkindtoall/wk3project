@@ -2,7 +2,7 @@
 function BeepBoop(input) {
 var results = [];
 for (var i = 0; i <= input; i++) {
-  if (i%3 == 0) {
+  if (i%3 == 0 && i != 0) {
     results.push("I'm sorry Dave. I'm afraid I can't do that.");
     console.log(results);
   } else if (i.toString().match(/0/g)) {
@@ -23,6 +23,7 @@ $("form#formOne").submit(function(event){
   event.preventDefault();
 
 var input = parseInt($("input#userNumber").val());
+console.log(input);
 $("input#userNumber").val("");
 $("#output").text(BeepBoop(input));
 $("h3").show();
