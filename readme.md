@@ -10,7 +10,7 @@ Enter any number and get the following return:
  2. Any number with a one, will be replaced with Beep!
  3. Any number divisible by three, will be replaced the the quote, "Sorry Dave, I can't do that right now."
 
-https://bkindtoall.gitHub.io/wk3project
+To view/install this webpage go to: https://bkindtoall.gitHub.io/wk3project/
 
 
 ## Support and contact details
