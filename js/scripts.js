@@ -24,6 +24,8 @@ $(document).ready(function(){
     event.preventDefault();
 
   var input = parseInt($("input#userNumber").val());
+  $("input#userNumber").val("");
   $("#output").text(BeepBoop(input));
+  $("h3").show();
   });
 });

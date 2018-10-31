@@ -9,19 +9,22 @@
   </head>
   <body>
     <div class="container">
-      <div class="megatron">
+      <div class="jumbotron"></div>
+      <hr>
+      <div class="container-fluid">
+
         <h1>"Sorry Dave!"</h1>
+
+        <form id="formOne">
+          <div class="form-group">
+            <label for="userNumber">Enter a number</label><br><br>
+            <input id="userNumber" type="number">
+          </div>
+
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
       </div>
-
-      <form id="formOne">
-        <div class="form-group">
-          <label for="userNumber">Enter a number</label><br>
-          <input id="userNumber" type="number">
-        </div>
-
-        <button type="submit" class="btn btn-info">Submit</button>
-      </form>
-
+      <h3>Beep...Boop...</h3>
       <div id="output">
       </div>
     </div>

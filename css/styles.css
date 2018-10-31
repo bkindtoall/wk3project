@@ -3,5 +3,37 @@ input {
 }
 
 #output {
-    margin-top: 50px;
+    margin-top: 40px;
+    background-image: url(../img/2001a.jpeg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 15px;
+}
+
+.jumbotron {
+  background-image: url(../img/banner.jpeg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 4px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.container-fluid {
+  background-image: url(../img/eye.jpeg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 6px;
+  margin: 4px;
+}
+
+button {
+  margin-bottom: 6px;
+}
+
+h3 {
+    display: none;
 }
